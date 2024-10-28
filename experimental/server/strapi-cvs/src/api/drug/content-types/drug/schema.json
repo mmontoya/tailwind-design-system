@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drugs",
+  "info": {
+    "singularName": "drug",
+    "pluralName": "drugs",
+    "displayName": "Drug"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "brand": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "active_ingredient": {
+      "type": "string"
+    },
+    "dose_form": {
+      "type": "string"
+    },
+    "strength": {
+      "type": "string"
+    },
+    "route_of_administration": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "approval_date": {
+      "type": "date"
+    },
+    "category": {
+      "type": "string"
+    },
+    "side_effects": {
+      "type": "text"
+    },
+    "storage_instructions": {
+      "type": "text"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
